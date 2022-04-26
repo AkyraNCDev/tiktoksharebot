@@ -102,8 +102,8 @@ def ClearURI(link):
 if (__name__ == "__main__"):
     Clear()
     print(Colorate.Horizontal(Colors.red_to_white, f"Working But Slow !"))
-    itemID       = Write.Input("Video Link > ", Colors.red_to_purple, interval=0.0001)
-    amount       = Write.Input("Amount (0=inf) > ", Colors.red_to_purple, interval=0.0001)
+    itemID       = Write.Input("Video Link (All models supported!) > ", Colors.red_to_purple, interval=0.0001)
+    amount       = Write.Input("Amount (0=infinity) > ", Colors.red_to_purple, interval=0.0001)
     ScrapProxie  = Write.Input("Scrap Proxies [y/n] > ", Colors.red_to_purple, interval=0.0001)
     Proxytype    = Write.Input("Proxy Type > ", Colors.red_to_purple, interval=0.0001)
     Timeout      = Write.Input("Proxy Timeout > ", Colors.red_to_purple, interval=0.0001)
